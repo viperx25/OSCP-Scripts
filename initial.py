@@ -71,7 +71,7 @@ with open('initial.nmap', 'r') as f:
     text = f.read()
 
 with open('initial-udp.nmap', 'r') as f:
-    text-udp = f.read()
+    text_udp = f.read()
 
 port80 = True if '80/tcp' in text else False
 port443 = True if '443/tcp' in text else False
